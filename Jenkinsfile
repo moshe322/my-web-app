@@ -12,13 +12,10 @@ pipeline {
 			}
 		}
 		
-		stage('Deploy Code") {
+		stage('Deploy Code') {
 			steps {
 				echo "Code Deployed `date`"
 			}
 		}
                }
 }
-
-			
-
